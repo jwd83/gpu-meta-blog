@@ -17,17 +17,19 @@ export default function App({ Component }: AppProps) {
           <nav>
             <ul class="flex justify-center text-2xl text-gray-400">
               <li class="px-4 py-2">
-                <a href="/">Meta Analysis</a>
+                <a href="/#meta">Meta Analysis</a>
               </li>
               <li class="px-4 py-2">
-                <a href="/posts">Posts</a>
+                <a href="/#posts">Posts</a>
               </li>
               <li class="px-4 py-2">
                 <a href="mailto:contact@gpumeta.blog">Contact</a>
               </li>
             </ul>
           </nav>
-          <Component />
+          
+            <Component />
+          
         </div>
       </body>
     </>
