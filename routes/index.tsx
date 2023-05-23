@@ -30,9 +30,10 @@ export default function Home({ data }: PageProps<Post>) {
           <article class="my-6 text-xl">
             <p class="my-6">
               The GPU Meta report is a spreadsheet that combines a snapshots of
-              market conditions with benchmarks alongside specs to give a
-              relative performance score and value scores for each GPU as well
-              as serve as a knowledge base for GPU information.
+              market conditions with benchmarks alongside the manufacturer
+              specifications to give a relative performance score and value
+              scores for each GPU as well as serve as a knowledge base for GPU
+              information.
             </p>
 
             <h3 class="my-3 text-2xl font-bold">
