@@ -10,8 +10,8 @@ export default function Hero() {
           Spring 2023 GPU Meta Analysis
         </h1>
         <p class="text-xl max-w-lg text-blue-100">
-          Performance scores relative to the RTX 3060, new pricing from
-          PCPartPicker and eBay.
+          Performance and value scores relative to the RTX 3060, new pricing
+          from PCPartPicker and eBay.
         </p>
       </div>
 
