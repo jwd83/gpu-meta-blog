@@ -8,6 +8,7 @@ import type { Handlers, PageProps } from "$fresh/server.ts";
 import { Post } from "$app/utils/types.ts";
 import { getCurrentDate } from "$app/utils/functions.ts";
 import Hero from "$app/components/Hero.tsx";
+import Footer from "$app/components/Footer.tsx";
 
 const post: Post = {
   date: getCurrentDate(),
@@ -79,6 +80,7 @@ export default function Home({ data }: PageProps<Post>) {
             </p>
           </article>
         </div>
+        <Footer children="" />
       </div>
     </>
   );
