@@ -25,7 +25,7 @@ export default function Home({ data }: PageProps<Post>) {
             Blog
           </h1>
           <h1 class="text-4xl font-bold">
-            The First GPUMeta.blog Analysis
+            Our First GPU Meta Analysis
           </h1>
           <h2>
             <em>2023-05-23</em>
