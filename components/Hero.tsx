@@ -6,9 +6,12 @@ export default function Hero() {
       style="background-image:linear-gradient(rgba(0, 0, 40, 0.8),rgba(0, 0, 40, 0.8)), url('/hero-bg.webp');"
     >
       <div class="space-y-4 text-center">
-        <h1 class="text-4xl inline-block font-bold">Spring 2023 GPU Meta Analysis</h1>
+        <h1 class="text-4xl inline-block font-bold">
+          Spring 2023 GPU Meta Analysis
+        </h1>
         <p class="text-xl max-w-lg text-blue-100">
-          Performance scores relative to the RTX 3060, new pricing from PCPartPicker and eBay.
+          Performance scores relative to the RTX 3060, new pricing from
+          PCPartPicker and eBay.
         </p>
       </div>
 

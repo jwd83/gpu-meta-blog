@@ -11,7 +11,7 @@ export default function App({ Component }: AppProps) {
       </Head>
       <body class="bg-black text-gray-200">
         <div class="max-w-[1000px] mx-auto block bg-gray-900">
-          <h1 class="text-center text-7xl font-bold">
+          <h1 class="text-center text-7xl font-black">
             <a href="">GPU Meta</a>
           </h1>
           <nav>
@@ -27,9 +27,8 @@ export default function App({ Component }: AppProps) {
               </li>
             </ul>
           </nav>
-          
-            <Component />
-          
+
+          <Component />
         </div>
       </body>
     </>
