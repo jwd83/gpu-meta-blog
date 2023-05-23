@@ -54,7 +54,7 @@ export default function Home({ data }: PageProps<Post>) {
               value score of 100. If a GPU has a relative performance of 200, it
               is roughly twice as fast as the Baseline GPU. If it has a relative
               value score of 200 it is roughly twice as good of a value as the
-              Baseline GPU in terms of approximate FPS per dollars.
+              Baseline GPU in terms of approximate performance per dollar.
             </p>
 
             <h3 class="my-3 text-2xl font-bold">
