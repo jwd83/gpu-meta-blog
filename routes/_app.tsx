@@ -23,7 +23,7 @@ export default function App({ Component }: AppProps) {
                 <a href="/#posts">Posts</a>
               </li>
               <li class="px-4 py-2">
-                <a href="mailto:contact@gpumeta.blog">Contact</a>
+                <a href="mailto:contact@gpumeta.blog">Email</a>
               </li>
             </ul>
           </nav>
