@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div
-      name="meta"
+      id="meta"
       class="w-full flex px-8 h-96 justify-center items-center flex-col gap-8 bg-cover bg-center bg-no-repeat bg-gray-100 rounded-xl text-white my-8"
       style="background-image:linear-gradient(rgba(0, 0, 40, 0.8),rgba(0, 0, 40, 0.8)), url('/hero-bg.webp');"
     >

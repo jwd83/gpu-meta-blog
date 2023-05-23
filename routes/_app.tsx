@@ -7,7 +7,7 @@ export default function App({ Component }: AppProps) {
   return (
     <>
       <Head>
-        <title>GPUMeta.Blog</title>
+        <title>GPU Meta</title>
       </Head>
       <body class="bg-black text-gray-200">
         <div class="max-w-[1000px] mx-auto block bg-gray-900">
