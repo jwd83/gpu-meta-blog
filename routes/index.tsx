@@ -21,6 +21,9 @@ export default function Home({ data }: PageProps<Post>) {
       <div class="p-4 mx-auto max-w-screen-md">
         <Hero />
         <div id="posts">
+          <h1 class="text-6xl font-bold text-center mb-8">
+            Blog
+          </h1>
           <h1 class="text-4xl font-bold">
             The First GPUMeta.blog Analysis
           </h1>
