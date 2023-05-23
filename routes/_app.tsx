@@ -8,6 +8,10 @@ export default function App({ Component }: AppProps) {
     <>
       <Head>
         <title>GPU Meta</title>
+        <meta
+          name="description"
+          content="Discover the best GPU for your needs with the GPU Meta report. Our spreadsheet combines market snapshots, benchmarks, and manufacturer specifications to provide relative performance and value scores for each GPU. Use our knowledge base to find the perfect GPU for your next project"
+        />
       </Head>
       <body class="bg-black text-gray-200">
         <div class="max-w-[1000px] mx-auto block bg-gray-900">
