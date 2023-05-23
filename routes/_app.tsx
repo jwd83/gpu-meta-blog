@@ -20,13 +20,13 @@ export default function App({ Component }: AppProps) {
           </h1>
           <nav>
             <ul class="flex justify-center text-2xl text-gray-400">
-              <li class="px-6 py-4">
+              <li class="px-6 py-4 hover:text-white transition-colors">
                 <a href="/#meta">Meta Analysis</a>
               </li>
-              <li class="px-6 py-4">
-                <a href="/#posts">Posts</a>
+              <li class="px-6 py-4 hover:text-white transition-colors">
+                <a href="/#posts">Blog</a>
               </li>
-              <li class="px-6 py-4">
+              <li class="px-6 py-4 hover:text-white transition-colors">
                 <a href="mailto:contact@gpumeta.blog">Email</a>
               </li>
             </ul>
