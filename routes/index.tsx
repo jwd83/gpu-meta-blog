@@ -83,7 +83,6 @@ export default function Home({ data }: PageProps<Post>) {
             </article>
           </div>
         </div>
-        <Footer children="" />
       </div>
     </>
   );
