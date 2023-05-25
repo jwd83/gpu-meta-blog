@@ -15,8 +15,8 @@ export default function App({ Component }: AppProps) {
           content="Discover the best GPU for your needs with the GPU Meta report. Our spreadsheet combines market snapshots, benchmarks, and manufacturer specifications to provide relative performance and value scores for each GPU. Use our knowledge base to find the perfect GPU for your next project"
         />
       </Head>
-      <body class="bg-gradient-to-l from-green-800 via-red-800 to-green-800 p-4 text-gray-200">
-        <div class="max-w-[1000px] mx-auto block bg-gray-900 rounded">
+      <body class="bg-gradient-to-l from-green-800 via-red-800 to-blue-900 p-4 text-gray-200">
+        <div class="max-w-[1000px] mx-auto block bg-gray-900">
           <Header active="" />
           <Component />
           <Footer children="{}" />
