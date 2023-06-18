@@ -55,6 +55,9 @@ for row in csv_data:
         'Memory Architecture': row[22],
         'Memory Capacity (GB)': row[23],
         'Memory Clock': row[25],
+        'Memory Bus Width': row[26],
+        'Memory Throughput': row[27],
+        'TDP (W)': row[29],
 
 
 
