@@ -7,6 +7,7 @@ type Props = {
 
 export default function Header({ active }: Props) {
   const menus = [
+    { name: "GPUs", href: "/gpu/" },
     { name: "Meta Analysis", href: "/#meta" },
     { name: "Blog", href: "/#posts" },
     { name: "Email", href: "mailto:contact@gpumeta.blog" },
