@@ -18,12 +18,17 @@ function showGpuSpecs(gpu_name: string) {
       <table class="mx-auto my-8">
         <tbody>
           {/* loop through each property of gpu and display it */}
-          {Object.entries(gpu).map(([key, value]) => (
-            <tr>
-              <td>{key}</td>
-              <td class="text-right">{value}</td>
-            </tr>
-          ))}
+          {Object.entries(gpu).map(([key, value]) => {
+            // check that the value is not an empty string
+            if (value !== "") {
+              return (
+                <tr>
+                  <td>{key}</td>
+                  <td class="text-right">{value}</td>
+                </tr>
+              );
+            }
+          })}
         </tbody>
       </table>
     </>
