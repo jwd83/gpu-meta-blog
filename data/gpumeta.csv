@@ -1,0 +1,105 @@
+,https://gpumeta.blog, US Pricing ,,,RP,, RV ,,,,Specifications,,,,,,,,,,,,,,,,,,,
+,Edit," Launch
+MSRP "," PCPP 
+eBay NIB
+Cost New "," eBay 
+r/hwswap 
+Cost Used ",TechPowerUp ,,RV New,,RV Used,,GPU Core Architecture,,,,,,,,,,,GPU Memory Architecture,,,,,,,,
+,Model,,,,"% Relative Performance
+vs 3060 12 GB",,"RPI per $
+PCPP New | Launch MSRP",,"RPI per $
+eBay used",,Architecture,GPU Die,"GPU Die
+Variant","Die Size
+(mm^2)",Foundry,"Process Size 
+/ Name (nm)","Cores /
+Shading Units",,"Base Clock
+(FE/Ref)","Boost Clock
+(FE/Ref)",,Memory Type,"Capacity 
+(GB)",,"Speed
+(MegaTransfers/sec)","Bus Width 
+(bits)","Throughput
+(gigabits/sec)",,"Ref. TDP
+(Watts)",Release Date
+Pascal,NVIDIA GeForce GTX 1050, $ 109 ,, $ 39 ,27,,69,,189,,Pascal,GP107,,,Samsung,14 nm,640,,1354,1455,,GDDR5,2,,876,128,112,,75,
+,NVIDIA GeForce GTX 1050 Ti, $ 139 ,, $ 42 ,33,,66,,215,,Pascal,GP107,,,Samsung,14 nm,768,,1291,1392,,GDDR5,4,,876,128,112,,75,
+,NVIDIA GeForce GTX 1060 3GB, $ 249 ,, $ 50 ,48,,54,,261,,Pascal,GP106,,,TSMC,16 nm,1152,,1506,1708,,GDDR5,3,,1001,192,192,,120,
+,NVIDIA GeForce GTX 1060 6GB, $ 299 ,, $ 60 ,53,,49,,241,,Pascal,GP106,,,TSMC,16 nm,1280,,1506,1709,,GDDR5,6,,1001,192,192,,120,
+,NVIDIA GeForce GTX 1070, $ 379 ,, $ 82 ,72,,53,,240,,Pascal,GP104,,,TSMC,16 nm,1920,,1506,1683,,GDDR5,8,,1001,256,256,,150,
+,NVIDIA GeForce GTX 1070 Ti, $ 449 ,, $ 90 ,81,,50,,246,,Pascal,GP104,,,TSMC,16 nm,2432,,1607,1683,,GDDR5,8,,1001,256,256,,180,
+,NVIDIA GeForce GTX 1080, $ 599 ,, $ 114 ,84,,39,,201,,Pascal,GP104,,,TSMC,16 nm,2560,,1607,1733,,GDDR5X,8,,1251,256,320,,180,
+,NVIDIA GeForce GTX 1080 Ti, $ 699 ,, $ 165 ,107,,43,,177,,Pascal,GP102,,,TSMC,16 nm,3584,,1481,1582,,GDDR5X,11,,1376,352,484,,250,
+,NVIDIA TITAN X Pascal," $ 1,199 ",, $ 200 ,104,,24,,142,,Pascal,GP102,,,TSMC,16 nm,3584,,1417,1531,,GDDR5X,12,,1251,384,480,,250,
+Turing,NVIDIA GeForce GTX 1650,, $ 180 , $ 99 ,42,,65,,116,,Turing,TU117,"TU117-300-A1",200,TSMC,12 nm,896,,1485,1665,,GDDR5,4,,1001,128,128,,75,
+,NVIDIA GeForce GTX 1650 GDDR6,, $ 180 , $ 99 ,40,,62,,110,,Turing,TU117,"TU117-300-A1",200,TSMC,12 nm,896,,1410,1590,,GDDR6,4,,1500,128,192,,75,
+,NVIDIA GeForce GTX 1650 Super,, $ 200 , $ 102 ,56,,78,,150,,Turing,TU116,,,TSMC,12 nm,1280,,1530,1725,,GDDR6,4,,1500,128,192,,100,
+,NVIDIA GeForce GTX 1660,, $ 200 , $ 113 ,62,,86,,150,,Turing,TU116,,,TSMC,12 nm,1408,,1530,1785,,GDDR5,6,,1001,192,192,,120,
+,NVIDIA GeForce GTX 1660 Super,, $ 200 , $ 125 ,70,,98,,153,,Turing,TU116,,,TSMC,12 nm,1408,,1530,1785,,GDDR6,6,,1750,192,336,,125,
+,NVIDIA GeForce GTX 1660 Ti,, $ 300 , $ 138 ,72,,67,,142,,Turing,TU116,,,TSMC,12 nm,1536,,1500,1770,,GDDR6,6,,1500,192,288,,120,
+,NVIDIA GeForce RTX 2060, $ 349 , $ 249 , $ 168 ,84,,94,,137,,Turing,TU106,TU106-200A-KA-A1,445,TSMC,12 nm,1920,,1365,1680,,GDDR6,6,,1750,192,336,,160,
+,NVIDIA GeForce RTX 2060 Super, $ 399 , $ 349 , $ 213 ,95,,76,,122,,Turing,TU106,"TU106-410-A1",445,TSMC,12 nm,2176,,1470,1650,,GDDR6,8,,1750,256,448,,175,
+,NVIDIA GeForce RTX 2070, $ 499 ,, $ 203 ,98,,55,,132,,Turing,TU106,TU106-400A-A1,445,TSMC,12 nm,2304,,1410,1620,,GDDR6,8,,1750,256,448,,175,
+,NVIDIA GeForce RTX 2070 Super, $ 499 ,, $ 236 ,108,,60,,125,,Turing,TU104,"TU104-410-A1",545,TSMC,12 nm,2560,,1605,1770,,GDDR6,8,,1750,256,448,,215,
+,NVIDIA GeForce RTX 2080, $ 799 ,, $ 236 ,117,,41,,135,,Turing,TU104,,545,TSMC,12 nm,2944,,1550,1710,,GDDR6,8,,1750,256,448,,215,
+,NVIDIA GeForce RTX 2080 Super, $ 699 ,, $ 284 ,122,,49,,117,,Turing,TU104,,545,TSMC,12 nm,3072,,1650,1815,,GDDR6,8,,1937,256,496,,250,
+,NVIDIA GeForce RTX 2080 Ti," $ 1,199 ",, $ 378 ,137,,32,,99,,Turing,TU102,,,TSMC,12 nm,4352,,1350,1545,,GDDR6,11,,1750,352,616,,250,
+,NVIDIA GeForce RTX TITAN," $ 2,499 ",, $ 589 ,167,,19,,77,,Turing,TU102,,,TSMC,12 nm,4608,,1350,1770,,GDDR6,24,,1750,384,672,,280,
+Ampere,NVIDIA RTX A2000 6 GB, $ 299 ,, $ 299 ,63,,59,,57,,Ampere,GA106,GA106-850-A1,276,Samsung,8 nm,3328,,562,1200,,GDDR6,6,,1500,192,288,,,
+,NVIDIA RTX A2000 12 GB,, $ 648 , $ 380 ,63,,27,,45,,Ampere,GA106,"GA106-850-A1",276,Samsung,8 nm,3328,,562,1200,,GDDR6,12,,1500,192,288,,70,
+,NVIDIA GeForce RTX 3050 8 GB, $ 249 , $ 219 , $ 190 ,73,,93,,105,,Ampere,GA106,,276,Samsung,8 nm,2560,,1552,1777,,GDDR6,8,,1750,128,224,,130,1/27/2022
+,NVIDIA GeForce RTX 3060 12 GB (Baseline), $ 329 , $ 279 , $ 273 ,100,,100,,100,,Ampere,GA106,,,Samsung,8 nm,3584,,1320,1777,,GDDR6,12,,1875,192,360,,170,2/25/2021
+,NVIDIA GeForce RTX 3060 Ti, $ 399 , $ 332 , $ 302 ,125,,105,,113,,Ampere,GA104,,,Samsung,8 nm,4864,,1410,1665,,GDDR6,8,,1750,256,448,,200,11/1/2020
+,NVIDIA GeForce RTX 3070, $ 499 , $ 399 , $ 360 ,148,,104,,112,,Ampere,GA104,,,Samsung,8 nm,5888,,1500,1725,,GDDR6,8,,1750,256,448,,220,9/1/2020
+,NVIDIA GeForce RTX 3070 Ti, $ 599 , $ 504 , $ 438 ,157,,87,,98,,Ampere,GA104,,,Samsung,8 nm,6144,,1575,1770,,GDDR6X,8,,2376,256,608,,290,5/31/2021
+,NVIDIA GeForce RTX 3080 10 GB, $ 699 ,, $ 519 ,191,,76,,100,,Ampere,GA102,,,Samsung,8 nm,8704,,1440,1710,,GDDR6X,10,,2376,320,760,,320,
+,NVIDIA GeForce RTX 3080 Ti," $ 1,199 ",, $ 654 ,214,,50,,89,,Ampere,GA102,"GA102-300-A1",628,Samsung,8 nm,10240,,1365,1665,,GDDR6X,12,,2376,384,912,,350,
+,NVIDIA GeForce RTX 3090," $ 1,499 ",, $ 650 ,218,,41,,92,,Ampere,GA102,,,Samsung,8 nm,10496,,1395,1695,,GDDR6X,24,,2438,384,936,,350,
+,NVIDIA GeForce RTX 3090 Ti," $ 1,999 ",, $ 991 ,244,,34,,67,,Ampere,GA102,,,Samsung,8 nm,10752,,1560,1860,,GDDR6X,24,,2626,384,1008,,450,
+Ada Lovelace,NVIDIA GeForce RTX 4060 (Speculative), $ 299 , $ 299 , $ 299 ,130,,121,,118,,Ada Lovelace,AD106,,190,TSMC,5 nm,3840,,1830,2535,,GDDR6,8,,2250,128,288,,???,
+,NVIDIA GeForce RTX 4060 Ti 8 GB, $ 379 , $ 399 , $ 399 ,147,,103,,101,,Ada Lovelace,AD106,,,TSMC,5 nm,4352,,2310,2535,,GDDR6,8,,2250,128,288,,160,
+,NVIDIA GeForce RTX 4060 Ti 16 GB (Speculative), $ 499 , $ 499 , $ 499 ,147,,82,,80,,Ada Lovelace,AD106,,,TSMC,5 nm,4352,,2310,2535,,GDDR6,8,,2250,128,288,,160,
+,NVIDIA GeForce RTX 4070, $ 599 , $ 589 , $ 575 ,193,,91,,92,,Ada Lovelace,AD104,,,TSMC,5 nm,5888,,1920,2475,,GDDR6X,12,,2626,192,504,,200,
+,NVIDIA GeForce RTX 4070 Ti, $ 799 , $ 799 , $ 739 ,223,,78,,82,,Ada Lovelace,AD104,,,TSMC,5 nm,7680,,2310,2610,,GDDR6X,12,,2626,192,504,,285,
+,NVIDIA GeForce RTX 4080," $ 1,299 "," $ 1,107 ", $ 900 ,283,,71,,86,,Ada Lovelace,AD103,,,TSMC,5 nm,9728,,2205,2505,,GDDR6X,16,,2800,256,717,,320,
+,NVIDIA GeForce RTX 4090," $ 1,599 "," $ 1,589 "," $ 1,375 ",355,,62,,70,,Ada Lovelace,AD102,,,TSMC,5 nm,16384,,2235,2520,,GDDR6X,24,,2626,384,1008,,450,
+Alchemist,Intel Arc A380,, $ 139 , $ 139 ,40,,80,,79,,Alchemist (Arc 3),DG2-128,,,TSMC,6 nm,1024,,2000,2050,,GDDR6,6,,1937,96,186,,75,
+,"Intel Arc A750",, $ 229 , $ 189 ,101,,123,,146,,Alchemist (Arc 7),DG2-512,,,TSMC,6 nm,3584,,2050,2400,,GDDR6,8,,2000,256,512,,225,
+,Intel Arc A770 8GB,, $ 329 , $ 240 ,111,,94,,126,,Alchemist (Arc 7),DG2-512,,,TSMC,6 nm,4096,,2100,2400,,GDDR6,8,,2000,256,512,,225,
+,Intel Arc A770 16GB,, $ 359 , $ 282 ,111,,86,,107,,Alchemist (Arc 7),DG2-512,,,TSMC,6 nm,4096,,2100,2400,,GDDR6,16,,2000,256,512,,225,
+GCN,AMD Radeon RX 580,, $ 149 , $ 64 ,54,,101,,230,,Graphics Core Next (GCN) 4.0,Polaris 20,,,GlobalFoundries,14 nm,2304,,1257,1340,,GDDR5,8,,1000,256,256,,185,
+,AMD Radeon RX 590,, $ 149 , $ 75 ,59,,110,,215,,GCN 4.0,Polaris 30,,,GlobalFoundries,12 nm,2304,,1469,1545,,GDDR5,8,,1000,256,256,,225,
+,AMD Radeon RX Vega 56,, $ 500 , $ 110 ,76,,42,,189,,GCN 5.0,Vega 10,,,GlobalFoundries,14 nm,3584,,1156,1471,,HBM2,8,,200,2048,410,,210,
+,AMD Radeon RX Vega 64,, $ 500 , $ 98 ,83,,46,,231,,GCN 5.0,Vega 10,,,GlobalFoundries,14 nm,4096,,1247,1546,,HBM2,8,,236,2048,484,,295,
+,AMD Radeon VII,, $ 500 , $ 300 ,101,,56,,92,,GCN 5.1,Vega 20,Vega 20 XT,331,TSMC,7 nm,3840,,1400,1750,,HBM2,16,,250,4096,1024,,300,
+RDNA 1,AMD Radeon RX 5500 XT,, $ 249 , $ 106 ,55,,62,,142,,Radeon DNA (RDNA) 1,Navi 14,,,TSMC,7 nm,1408,,1607,1845,,GDDR6,4,,1750,128,224,,130,
+,AMD Radeon RX 5600 XT,, $ 200 , $ 125 ,82,,114,,179,,RDNA 1,Navi 10,Navi 10 XLE,,TSMC,7 nm,2304,,1130,1560,,GDDR6,6,,1500,192,288,,160,
+,AMD Radeon RX 5700,, $ 230 , $ 139 ,88,,107,,173,,RDNA 1,Navi 10,Navi 10 XL,,TSMC,7 nm,2304,,1465,1750,,GDDR6,8,,1750,256,448,,180,
+,AMD Radeon RX 5700 XT,, $ 230 , $ 157 ,100,,121,,174,,RDNA 1,Navi 10,Navi 10 XT,,TSMC,7 nm,2560,,1605,1905,,GDDR6,8,,1750,256,448,,225,
+RDNA 2,AMD Radeon RX 6400,, $ 124 , $ 100 ,41,,92,,112,,RDNA 2,Navi 24,,,TSMC,6 nm,768,,1923,2321,,GDDR6,4,,2000,64,128,,53,
+,AMD Radeon RX 6500 XT,, $ 149 , $ 114 ,55,,103,,132,,RDNA 2,Navi 24,,,TSMC,6 nm,1024,,2310,2815,,GDDR6,4,,2248,64,144,,110,
+,AMD Radeon RX 6600,, $ 179 , $ 163 ,94,,147,,157,,RDNA 2,Navi 23,,,TSMC,7 nm,1792,,1626,2491,,GDDR6,8,,1750,128,224,,132,
+,AMD Radeon RX 6600 XT,, $ 244 , $ 199 ,112,,128,,154,,RDNA 2,Navi 23,Navi 23 XT,,TSMC,7 nm,2048,,1968,2589,,GDDR6,8,,2000,128,256,,160,
+,AMD Radeon RX 6650 XT,, $ 244 , $ 231 ,114,,130,,135,,RDNA 2,Navi 23,,,TSMC,7 nm,2048,,2055,2635,,GDDR6,8,,2190,128,280,,180,
+,AMD Radeon RX 6700, $ 369 , $ 304 , $ 250 ,119,,109,,130,,RDNA 2,Navi 22,,,TSMC,7 nm,2304,,1941,2450,,GDDR6,10,,2000,160,320,,175,
+,AMD Radeon RX 6700 XT, $ 479 , $ 329 , $ 285 ,127,,108,,122,,RDNA 2,Navi 22,,,TSMC,7 nm,2560,,2321,2581,,GDDR6,12,,2000,192,384,,230,
+,AMD Radeon RX 6750 XT, $ 549 , $ 359 , $ 292 ,138,,107,,129,,RDNA 2,Navi 22,Navi 22 KXT,,TSMC,7 nm,2560,,2150,2600,,GDDR6,12,,2250,192,432,,250,
+,AMD Radeon RX 6800, $ 579 , $ 489 , $ 400 ,162,,92,,111,,RDNA 2,Navi 21,,,TSMC,7 nm,3840,,1700,2105,,GDDR6,16,,2000,256,512,,250,
+,AMD Radeon RX 6800 XT, $ 649 , $ 499 , $ 475 ,184,,103,,106,,RDNA 2,Navi 21,Navi 21 KXTX,,TSMC,7 nm,4608,,1825,2250,,GDDR6,16,,2000,256,512,,300,
+,AMD Radeon RX 6900 XT, $ 999 , $ 779 , $ 554 ,198,,71,,98,,RDNA 2,Navi 21,Navi 21 XTX,,TSMC,7 nm,5120,,1825,2250,,GDDR6,16,,2000,256,512,,300,
+,AMD Radeon RX 6950 XT," $ 1,099 ", $ 599 , $ 611 ,214,,100,,96,,RDNA 2,Navi 21,,,TSMC,7 nm,5120,,1860,2310,,GDDR6,16,,2250,256,576,,335,
+RDNA 3,AMD Radeon RX 7600, $ 269 , $ 249 , $ 269 ,122,,137,,124,,RDNA 3,Navi 33,,,TSMC,6 nm,2048,,1720,2655,,GDDR6,8,,2500,128,320,,165,
+,AMD Radeon RX 7900 XT, $ 899 , $ 780 , $ 689 ,244,,87,,97,,RDNA 3,Navi 31,,,TSMC,5 nm,5376,,1500,2394,,GDDR6,20,,2500,320,800,,315,
+,AMD Radeon RX 7900 XTX, $ 999 , $ 960 , $ 849 ,290,,84,,93,,RDNA 3,Navi 31,,,TSMC,5 nm,6144,,1855,2499,,GDDR6,24,,2500,384,960,,335,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Sources,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://www.pcpartpicker.com/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://www.techspot.com/article/2667-gpu-pricing-update/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://www.techpowerup.com/gpu-specs/geforce-rtx-3060-12-gb.c3682,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://www.ebay.com/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://averagefinder.com/averageFinder.php,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://reddit.com/r/hardwareswap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://en.wikipedia.org/wiki/GeForce_30_series,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://en.wikipedia.org/wiki/GeForce_20_series,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,https://en.wikipedia.org/wiki/GeForce_10_series,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
