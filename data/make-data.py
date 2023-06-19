@@ -1,7 +1,8 @@
-# load the data from gpumeta.csv
-
+import datetime
+import json
 import csv
 
+# load the data from gpumeta.csv
 def load_data():
     data = []
     with open('gpumeta.csv', 'r') as csvfile:
@@ -21,6 +22,9 @@ data_out = []
 
 # iterate through the csv data and format it
 row_num = -1
+
+# record the time we are generating the file
+time_generated = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 for row in csv_data:
     row_num += 1
@@ -43,6 +47,8 @@ for row in csv_data:
     new_record = {
         'Model': row[1],
         'Launch MSRP': row[2],
+        'Recent New Pricing': row[3],
+        'Recent Used Pricing': row[4],
         'Architecture': row[11],
         'GPU Die': row[12],
         'GPU Die Variant': row[13],
@@ -58,16 +64,12 @@ for row in csv_data:
         'Memory Bus Width': row[26],
         'Memory Throughput': row[27],
         'TDP (W)': row[29],
-
-
-
+        'Last Updated': time_generated
 
     }
 
     data_out.append(new_record)
 
-# json stringify data_out
-import json
 with open('gpu_list.js', 'w') as outfile:
     outfile.write('export const gpu_list = ')
     json.dump(data_out, outfile)
