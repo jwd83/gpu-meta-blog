@@ -27,6 +27,20 @@ export default function Home({ data }: PageProps<Post>) {
             </h1>
             <article class="my-6 text-xl bg-gray-700 p-4 rounded-xl">
               <h1 class="text-4xl font-bold">
+                New GPUs Page
+              </h1>
+              <h2>
+                <em>2023-06-18</em>
+              </h2>
+              <p class="my-6">
+                We have just added the{" "}
+                <a href="/gpu" class="text-blue-100">/gpu</a>{" "}
+                page. It lists every GPU we currently index in the meta report
+                and any specifications we have documented for them.
+              </p>
+            </article>
+            <article class="my-6 text-xl bg-gray-700 p-4 rounded-xl">
+              <h1 class="text-4xl font-bold">
                 Our First GPU Meta Analysis
               </h1>
               <h2>
