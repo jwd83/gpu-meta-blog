@@ -17,36 +17,6 @@ function get_field_max(field: string): number {
   return max;
 }
 
-function get_max_gpu_relative_value_new(): number {
-  // find the maximum relative performance in the gpu_list
-  let max_gpu_perf = 0;
-
-  for (let i = 0; i < gpu_list.length; i++) {
-    const gpu_perf = parseInt(gpu_list[i]["Relative Performance"]);
-
-    if (gpu_perf > max_gpu_perf) {
-      max_gpu_perf = gpu_perf;
-    }
-  }
-
-  return max_gpu_perf;
-}
-
-function get_max_gpu_relative_value_used(): number {
-  // find the maximum relative performance in the gpu_list
-  let max_gpu_perf = 0;
-
-  for (let i = 0; i < gpu_list.length; i++) {
-    const gpu_perf = parseInt(gpu_list[i]["Relative Performance"]);
-
-    if (gpu_perf > max_gpu_perf) {
-      max_gpu_perf = gpu_perf;
-    }
-  }
-
-  return max_gpu_perf;
-}
-
 function price_new(msrp: string, recent_new: string): string {
   if (recent_new === "") {
     return msrp;
