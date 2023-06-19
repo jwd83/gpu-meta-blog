@@ -8,11 +8,19 @@ export default function GPUsPage() {
       <table class="table-auto mx-auto">
         <thead>
           <tr>
-            <th class="p-4">Model</th>
-            <th class="p-4">Architecture</th>
-            <th class="p-4">Launch MSRP</th>
-            <th class="p-4">Recent New</th>
-            <th class="p-4">Recent Used</th>
+            <th class="p-4 text-6xl">Model</th>
+            <th class="p-4">
+              Relative Performance<br />% vs. RTX 3060
+            </th>
+            <th class="p-4 text-2xl">
+              Launch<br />MSRP
+            </th>
+            <th class="p-4 text-2xl">
+              Recent<br />New
+            </th>
+            <th class="p-4 text-2xl">
+              Recent<br />Used
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -23,7 +31,8 @@ export default function GPUsPage() {
                   {gpu.Model}
                 </a>
               </td>
-              <td class="text-center">{gpu.Architecture}</td>
+              {/* <td class="text-center">{gpu.Architecture}</td> */}
+              <td class="text-center">{gpu["Relative Performance"]}</td>
               <td class="text-right">{gpu["Launch MSRP"]}</td>
               <td class="text-right">{gpu["Recent New Pricing"]}</td>
               <td class="text-right">{gpu["Recent Used Pricing"]}</td>
