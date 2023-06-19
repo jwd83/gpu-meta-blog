@@ -7,6 +7,7 @@ const sources = [
   "https://reddit.com/r/hardwareswap",
   "https://en.wikipedia.org/wiki/GeForce_30_series",
   "https://en.wikipedia.org/wiki/GeForce_20_series",
+  "https://en.wikipedia.org/wiki/GeForce_16_series",
   "https://en.wikipedia.org/wiki/GeForce_10_series",
   "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
 ];
