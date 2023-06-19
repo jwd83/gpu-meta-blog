@@ -8,14 +8,16 @@ export default function GPUsPage() {
       <table class="table-auto mx-auto">
         <thead>
           <tr>
-            <th>Model</th>
-            <th>Architecture</th>
-            <th>Launch MSRP</th>
+            <th class="p-4">Model</th>
+            <th class="p-4">Architecture</th>
+            <th class="p-4">Launch MSRP</th>
+            <th class="p-4">Recent New</th>
+            <th class="p-4">Recent Used</th>
           </tr>
         </thead>
         <tbody>
           {gpu_list.map((gpu) => (
-            <tr>
+            <tr class="odd:bg-gray-800 hover:bg-gray-600">
               <td>
                 <a href={`/gpu/${gpu.Model.replaceAll(" ", "_")}`}>
                   {gpu.Model}
@@ -23,7 +25,8 @@ export default function GPUsPage() {
               </td>
               <td class="text-center">{gpu.Architecture}</td>
               <td class="text-right">{gpu["Launch MSRP"]}</td>
-              <td class="text-right">{gpu["Launch MSRP"]}</td>
+              <td class="text-right">{gpu["Recent New Pricing"]}</td>
+              <td class="text-right">{gpu["Recent Used Pricing"]}</td>
             </tr>
           ))}
         </tbody>
