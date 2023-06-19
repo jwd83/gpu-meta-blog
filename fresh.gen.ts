@@ -7,6 +7,7 @@ import * as $0 from "./routes/_app.tsx";
 import * as $1 from "./routes/gpu/[gpu_name].tsx";
 import * as $2 from "./routes/gpu/index.tsx";
 import * as $3 from "./routes/index.tsx";
+import * as $4 from "./routes/sources.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -15,6 +16,7 @@ const manifest = {
     "./routes/gpu/[gpu_name].tsx": $1,
     "./routes/gpu/index.tsx": $2,
     "./routes/index.tsx": $3,
+    "./routes/sources.tsx": $4,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
