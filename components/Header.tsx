@@ -7,11 +7,15 @@ type Props = {
 
 export default function Header({ active }: Props) {
   const menus = [
-    { name: "GPUs", href: "/gpu/" },
+    { name: "GPU List", href: "/gpu/" },
     {
-      name: "Meta Analysis",
+      name: "Meta Spreadsheet",
       href:
         "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8eUfDHhRemU05YdBC1gDAkAYJAAdfZBJgJneyVq8zfjUifhKcQ-dgym3ZPq9hFu8PKeSlYz92SasM/pubhtml",
+    },
+    {
+      name: "Sources",
+      href: "/sources",
     },
     { name: "Blog", href: "/#posts" },
     { name: "Email", href: "mailto:contact@gpumeta.blog" },
