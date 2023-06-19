@@ -44,7 +44,7 @@ export default function GPUsPage() {
         </thead>
         <tbody>
           {gpu_list.map((gpu) => (
-            <tr class="odd:bg-gray-800 hover:bg-gray-600">
+            <tr class="odd:bg-gray-800 hover:bg-gray-600 transition-colors">
               <td>
                 <a href={`/gpu/${gpu.Model.replaceAll(" ", "_")}`}>
                   {gpu.Model}
