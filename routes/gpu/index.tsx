@@ -3,7 +3,21 @@ import { gpu_list } from "$app/data/gpu_list.js";
 
 const max_width = 100;
 
-function get_max_gpu_relative_performance(): number {
+function get_field_max(field: string): number {
+  let max = 0;
+
+  for (let i = 0; i < gpu_list.length; i++) {
+    const val = parseInt(gpu_list[i][field]);
+
+    if (val > max) {
+      max = val;
+    }
+  }
+
+  return max;
+}
+
+function get_max_gpu_relative_value_new(): number {
   // find the maximum relative performance in the gpu_list
   let max_gpu_perf = 0;
 
@@ -18,27 +32,62 @@ function get_max_gpu_relative_performance(): number {
   return max_gpu_perf;
 }
 
+function get_max_gpu_relative_value_used(): number {
+  // find the maximum relative performance in the gpu_list
+  let max_gpu_perf = 0;
+
+  for (let i = 0; i < gpu_list.length; i++) {
+    const gpu_perf = parseInt(gpu_list[i]["Relative Performance"]);
+
+    if (gpu_perf > max_gpu_perf) {
+      max_gpu_perf = gpu_perf;
+    }
+  }
+
+  return max_gpu_perf;
+}
+
+function price_new(msrp: string, recent_new: string): string {
+  if (recent_new === "") {
+    return msrp;
+  }
+
+  if (msrp === "") {
+    return recent_new;
+  }
+
+  return recent_new;
+}
+
 export default function GPUsPage() {
-  const max_gpu_perf = get_max_gpu_relative_performance();
+  const max_gpu_perf = get_field_max("Relative Performance");
+  const max_new_rv = get_field_max("Relative Value New");
+  const max_used_rv = get_field_max("Relative Value Used");
 
   return (
     <>
       <h1 class="text-center text-4xl my-4">GPUs</h1>
-      <table class="table-auto mx-auto">
+      <table class="table-auto mx-auto pt-4">
         <thead>
           <tr>
             <th class="p-4 text-6xl">Model</th>
             <th class="p-4">
-              Relative Performance<br />% vs. RTX 3060
+              Performance %<br />
+              Relative to 3060
             </th>
-            <th class="p-4 text-2xl">
-              Launch<br />MSRP
+            <th class="p-4">
+              Price<br />New
             </th>
-            <th class="p-4 text-2xl">
-              Recent<br />New
+            <th class="p-4">
+              Price<br />Used
             </th>
-            <th class="p-4 text-2xl">
-              Recent<br />Used
+            <th class="p-4">
+              New Value %<br />
+              Relative to 3060
+            </th>
+            <th class="p-4">
+              Used Value %<br />
+              Relative to 3060
             </th>
           </tr>
         </thead>
@@ -50,24 +99,49 @@ export default function GPUsPage() {
                   {gpu.Model}
                 </a>
               </td>
-              {/* <td class="text-center">{gpu.Architecture}</td> */}
-              {/* <td class="text-center"></td> */}
               <td class="text-left">
                 <img
                   src="data:image/gif;base64,R0lGODlhAQABAIAAAJ/ElAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                  height="10"
+                  height="17"
                   width={Math.round(
                     parseInt(gpu["Relative Performance"]) / max_gpu_perf *
                       max_width,
                   )}
-                  style="height: 10px;"
+                  style="height: 17px;"
                   class="inline-block"
                 />{" "}
                 {gpu["Relative Performance"]}
               </td>
-              <td class="text-right">{gpu["Launch MSRP"]}</td>
-              <td class="text-right">{gpu["Recent New Pricing"]}</td>
+              <td class="text-right">
+                {price_new(gpu["Launch MSRP"], gpu["Recent New Pricing"])}
+              </td>
               <td class="text-right">{gpu["Recent Used Pricing"]}</td>
+              <td>
+                <img
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAJ/ElAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                  height="17"
+                  width={Math.round(
+                    parseInt(gpu["Relative Value New"]) / max_new_rv *
+                      max_width,
+                  )}
+                  style="height: 17px;"
+                  class="inline-block ml-2"
+                />{" "}
+                {gpu["Relative Value New"]}
+              </td>
+              <td>
+                <img
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAJ/ElAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                  height="17"
+                  width={Math.round(
+                    parseInt(gpu["Relative Value Used"]) / max_used_rv *
+                      max_width,
+                  )}
+                  style="height: 17px;"
+                  class="inline-block ml-2"
+                />{" "}
+                {gpu["Relative Value Used"]}
+              </td>
             </tr>
           ))}
         </tbody>
