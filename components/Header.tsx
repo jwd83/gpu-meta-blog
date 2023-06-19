@@ -8,7 +8,11 @@ type Props = {
 export default function Header({ active }: Props) {
   const menus = [
     { name: "GPUs", href: "/gpu/" },
-    { name: "Meta Analysis", href: "/#meta" },
+    {
+      name: "Meta Analysis",
+      href:
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8eUfDHhRemU05YdBC1gDAkAYJAAdfZBJgJneyVq8zfjUifhKcQ-dgym3ZPq9hFu8PKeSlYz92SasM/pubhtml",
+    },
     { name: "Blog", href: "/#posts" },
     { name: "Email", href: "mailto:contact@gpumeta.blog" },
   ];
@@ -16,10 +20,12 @@ export default function Header({ active }: Props) {
   return (
     <div class="bg-gray-900 w-full max-w-screen-lg py-6 px-8 flex flex-col md:flex-row gap-4">
       <div class="flex items-center flex-1">
-        <Cpu />
-        <div class="text-2xl  ml-1 font-bold">
-          GPUMeta.blog
-        </div>
+        <a href="/" class="flex items-center flex-1">
+          <Cpu />
+          <div class="text-2xl  ml-1 font-bold">
+            GPUMeta.blog
+          </div>
+        </a>
       </div>
       <ul class="flex items-center gap-6">
         {menus.map((menu) => (
