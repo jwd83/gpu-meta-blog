@@ -67,6 +67,7 @@ for row in csv_data:
         'Memory Bus Width': row[26],
         'Memory Throughput': row[27],
         'TDP (W)': row[29],
+        'Efficiency': row[30],
         'Last Updated': time_generated
 
     }

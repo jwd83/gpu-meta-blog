@@ -5,18 +5,20 @@
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/_app.tsx";
 import * as $1 from "./routes/gpu/[gpu_name].tsx";
-import * as $2 from "./routes/gpu/index.tsx";
-import * as $3 from "./routes/index.tsx";
-import * as $4 from "./routes/sources.tsx";
+import * as $2 from "./routes/gpu/efficiency.tsx";
+import * as $3 from "./routes/gpu/index.tsx";
+import * as $4 from "./routes/index.tsx";
+import * as $5 from "./routes/sources.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
   routes: {
     "./routes/_app.tsx": $0,
     "./routes/gpu/[gpu_name].tsx": $1,
-    "./routes/gpu/index.tsx": $2,
-    "./routes/index.tsx": $3,
-    "./routes/sources.tsx": $4,
+    "./routes/gpu/efficiency.tsx": $2,
+    "./routes/gpu/index.tsx": $3,
+    "./routes/index.tsx": $4,
+    "./routes/sources.tsx": $5,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
